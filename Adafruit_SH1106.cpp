@@ -509,7 +509,7 @@ void Adafruit_SH1106::display(void) {
 	byte height=64;
 	byte width=132; 
 	byte m_row = 0;
-	byte m_col = 2;
+	byte m_col = 0;
 	
 	
 	height >>= 3;
